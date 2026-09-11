@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book Shop</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <h1>BOOK SHOP</h1>
+    <table>
+        <tr>
+            <th>Product Code</th>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Purchase</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>601</td>
+            <td>Biography Of Prem Chand</td>
+            <td class="price">₹200</td>
+            <td><input type="checkbox" class="check"></td>
+            <td><input type="number" min="1" value="1" class="qty"></td>
+        </tr>
+        <tr>
+            <td>602</td>
+            <td>Harry Potter</td>
+            <td class="price">₹1600</td>
+            <td><input type="checkbox" class="check"></td>
+            <td><input type="number" min="1" value="1" class="qty"></td>
+        </tr>
+        <tr>
+            <td>603</td>
+            <td>Discovery Of India</td>
+            <td class="price">₹550</td>
+            <td><input type="checkbox" class="check"></td>
+            <td><input type="number" min="1" value="1" class="qty"></td>
+        </tr>
+        <tr>
+            <td>604</td>
+            <td>Alif-Laila Story</td>
+            <td class="price">₹250</td>
+            <td><input type="checkbox" class="check"></td>
+            <td><input type="number" min="1" value="1" class="qty"></td>
+        </tr>
+        <tr>
+            <td>605</td>
+            <td>Amitabh Bachchan</td>
+            <td class="price">₹500</td>
+            <td><input type="checkbox" class="check"></td>
+            <td><input type="number" min="1" value="1" class="qty"></td>
+        </tr>
+    </table>
+    <br>
+    <button onclick="showBill()">Show My Bill</button>
+    <button onclick="resetForm()">RESET</button>
+    <div id="bill"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
