@@ -25,3 +25,10 @@ app.on('message', (msg) =>
     });
 app.emit('login', 'sid');
 app.emit('message', 'Welcome to Node.js');
+
+//part 3
+console.log('1. Start');
+process.nextTick(() => console.log('2. nextTick'));
+setTimeout(() => console.log('3. setTimeout'),0);
+setImmediate(() => console.log('4. setImmediate'));
+console.log('5. End');
