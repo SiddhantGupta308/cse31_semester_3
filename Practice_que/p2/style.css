@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #eaf2f8;
+}
+
+.container {
+    width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border: 2px solid darkblue;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+
+.gender {
+    margin-top: 8px;
+}
+
+.gender input {
+    width: auto;
+}
+
+button {
+    display: block;
+    margin: 25px auto 10px;
+    padding: 10px 30px;
+    background: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+button:hover {
+    background: royalblue;
+}
+
+#message {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
