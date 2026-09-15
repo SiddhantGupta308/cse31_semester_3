@@ -1,1 +1,1 @@
-C -> create a file and write file content.
+const fs=require("fs")

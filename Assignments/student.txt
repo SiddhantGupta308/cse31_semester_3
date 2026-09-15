@@ -1,4 +1,7 @@
-Name : Siddhant
-Roll Number : 55
-Branch : CSE
-Semester : 3rd 
+Name: Siddhant Gupta.
+Roll Number: 1150
+Branch: CSE
+Semester: 3rd
+Subject: Full Stack Development
+Marks: 85
+Attendance: 91%
