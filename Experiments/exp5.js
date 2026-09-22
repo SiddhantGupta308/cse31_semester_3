@@ -13,4 +13,5 @@ res. statusCode = 200; res. end ('GET: Student list');
    res. statusCode = 200; res.end ('DELETE: Student deleted');
 }else{res.statusCode = 404; res.end ('Route not found'); }
 });
+
 server. listen (3000, () => console. log('Server on 3000')) ;
