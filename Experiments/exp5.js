@@ -11,6 +11,9 @@ res. statusCode = 200; res. end ('GET: Student list');
    res. statusCode = 200; res.end ('PUT: Student updated');
 }else if (req.method == 'DELETE' && req.url === '/students/101') {
    res. statusCode = 200; res.end ('DELETE: Student deleted');
+}
+   else if (req.method == 'PATCH' && req.url === '/students/101') {
+   res. statusCode = 200; res.end ('PATCH: student updated');
 }else{res.statusCode = 404; res.end ('Route not found'); }
 });
 
